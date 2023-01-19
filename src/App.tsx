@@ -207,6 +207,7 @@ export const App: React.FC = () => {
             <button
               data-cy="ToggleAllButton"
               type="button"
+              aria-label="Save"
               className={classNames('todoapp__toggle-all',
                 {
                   active: !activeTodos.length,
